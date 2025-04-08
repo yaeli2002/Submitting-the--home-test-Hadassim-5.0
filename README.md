@@ -1,6 +1,13 @@
 # hadasim5-home-assignment
 
 <html dir="rtl">
+
+<style>
+  body {
+    text-align: right;
+  }
+</style>
+
 חלק א' -
 בתקיה PartA נמצא הפתרונות לשני הסעיפים של חלק א' במבחן:
 
