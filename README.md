@@ -1,66 +1,82 @@
-# hadasim5-home-assignment
+# Hadasim5 Home Assignment
 
-<html dir="rtl">
+## Part A
 
-<style>
-  body {
-    text-align: right;
-  }
-</style>
+In the **PartA** directory, you will find the solutions for both sections of Part A of the exam:
 
-חלק א' -
-בתקיה PartA נמצא הפתרונות לשני הסעיפים של חלק א' במבחן:
+### Section A:
 
-Section A:
+- **logs.txt**: The large log file containing the data to work with.
+- **LogErrorCounter**: The code file that performs error counting and generates the result.
 
-logs.txt: קובץ הלוגים הגדול שמכיל את הנתונים שעליהם יש לעבוד.
+### Section B:
 
-LogErrorCounter: קובץ הקוד שמבצע את ספירת השגיאות ומפיק את התוצאה.
+- **loadTimeSeries**: The code file for Section 1.
+- **loadTimeSeriesSplitChunks**: The code file for Section 2.
+- **חלק א סעיף ב 3**: The code file for Section 3.
+- **loadTimeSeriesParquet** and **loadSeriesSplitChunksParquet**: Code files for Section 4 (related to the Parquet format).
+- **time_series** and **time_series.parquet**: Data files in different formats (CSV and Parquet) containing the time series to work with.
 
-Section B:
+---
 
-loadTimeSeries: קובץ הקוד המתייחס לסעיף 1.
+## Part B - Family Tree
 
-loadTimeSeriesSplitChunks: קובץ הקוד המתייחס לסעיף 2.
+In the **Part B** directory, you will find the solutions for Part B of the exam:
 
-חלק א סעיף ב 3: קובץ הקוד המתייחס לסעיף 3.
+- **partBFamilyTree**: The code file describing the solution for both sections of the family tree task.
 
-loadTimeSeriesParquet ו- loadSeriesSplitChunksParquet: קבצי קוד המתייחסים לסעיף 4 (לגבי פורמט ה- Parquet).
+---
 
-time_series ו- time_series.parquet: קובצי נתונים בפורמטים שונים (CSV ו-Parquet) המכילים את סדרת הזמן שעליהם יש לעבוד.
+## Part C - Air Conditioner Remote Control
 
-חלק ב' - עץ משפחה
-בתקיה Part B תמצא את הפתרונות לחלק ב' של המבחן:
+In the **Part C** directory, you will find the solution for Part C:
 
-partBFamilyTree: קובץ הקוד המתאר את הפתרון לשני הסעיפים בעבודה עם עץ משפחה.
+- **חלק ג שלט מזגן**: The code file describing the solution for the air conditioner remote control questions.
 
-חלק ג' - שלט מזגן
-בתקיה Part C תמצא את הפתרון לחלק ג':
+---
 
-חלק ג שלט מזגן: קובץ הקוד המתאר את הפתרון לשאלות על שלט המזגן.
+## Part D - Grocery Store Management System
 
-חלק ד' - מערכת לניהול מכולות
-בתקיה Part D תמצא את הפתרון לחלק ד', שבו פותחה מערכת לניהול מכולת:
+In the **Part D** directory, you will find the solution for Part D, which is a system developed for managing a grocery store:
 
-צד שרת: תקיה עם קבצים המייצגים את הפתרון בצד השרת.
+- **Server Side**: Directory containing files representing the server-side solution.
+- **Client Side**: Directory containing files representing the client-side solution.
+- **Database**: Directory containing files representing the database solution.
 
-צד לקוח: תקיה עם קבצים המייצגים את הפתרון בצד הלקוח.
+## Admin Login Information
 
-מאגר נתונים: תקיה עם קבצים המייצגים את הנתונים בנוגע למאגר הנתונים.
+To access the site and go to the grocery store admin page, use the following login credentials:
 
-התקנת כלים והפעלת המערכת
-לפני שתוכל להריץ את המערכת, עליך להתקין את הכלים המתאימים:
-בצד השרת:
+Email:
+admin@hotmail.com
+
+Password:
+123456Aa!
+
+---
+
+## Installation and Running the System
+
+Before you can run the system, you need to install the appropriate tools:
+
+### On the server side:
+
+Run the following commands:
+
 npm install -g ts-node
 npm install -g nodemon
 npm install
-התקן את הכלים הבאים:
-בצד הלקוח:
-npm install
-הרצת המערכת:
-הרצת השרת:
-npm start
-הרצת הלקוח:
-npm run dev
 
-</html>
+### On the client side:
+
+Run the following commands:
+
+npm install
+
+### To run the server:
+
+npm start
+
+### To run the client:
+
+npm run dev
